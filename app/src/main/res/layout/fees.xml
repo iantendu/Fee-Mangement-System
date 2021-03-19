@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/myfees"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="FEES PAID"
+            android:background="@drawable/sb"
+            android:paddingTop="10dp"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/fees"
+
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/pay"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="SUBMIT"/>
+
+    </LinearLayout>
+
